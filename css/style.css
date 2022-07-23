@@ -1,0 +1,258 @@
+:root{
+    --menu-color: #212121;
+    --text-color: #212121;
+    --second-color-tetx: #757575;
+
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*header*/
+
+.header-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.85;
+    color:#2196F3;
+    text-decoration: none;
+}
+
+.header-logo span{
+    color:#000000;
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    
+    color: var(--menu-color);
+}
+
+
+.header-connection{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
+    
+    color: var(--second-color-tetx);
+}
+
+.header-link:hover,
+.header-connection:hover,
+.header-link:focus,
+.header-connection:focus {
+    color: #2196F3;
+    outline: none;
+}
+
+/* ---- Hero ---- */
+
+.hero-section{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.74;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.button-firstly{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button-firstly:hover,
+.button-firstly:focus{
+    background-color: #757575;
+    color: #FFFFFF;
+}
+
+/* ---- Opportunities ---- */
+
+.opportunities-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.opportunities-title-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color-tetx);
+}
+
+
+/* ---- About ---- */
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+
+/* ---- Team ---- */
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    color: var(--text-color);  
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: var(--second-color-tetx);
+}
+
+
+/* ---- Footer ---- */
+
+.footer{
+    background-color: #2F303A ;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.85; 
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.footer-logo span{
+    color: #000000;
+}
+
+.footer-list{
+    font-family: inherit;
+    font-style: normal;
+}
+
+.footer-addrres {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-connection {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addrres:hover,
+.footer-connection:hover,
+.footer-addrres:focus,
+.footer-connection:focus {
+    color: #2196F3;
+    outline: none;
+}
+
+
+
+
+
+/* ____Portfolio-Page___ */
+
+/* ----- Hero ----- */
+
+
+.button-secondary {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus,
+.button-secondary:active{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: #2196F3;  
+    color: #FFFFFF;
+}
+
+.images-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+}
+
+.images-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--second-color-tetx);
+}
